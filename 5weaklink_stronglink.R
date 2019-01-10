@@ -106,7 +106,7 @@ rm(nhlstandings0506po, nhlstandings0607po, nhlstandings0708po,
    nhlstandings0809po, nhlstandings0910po, nhlstandings1011po,
    nhlstandings1112po, nhlstandings1213po, nhlstandings1314po,
    nhlstandings1415po)#, nhlstandings1516po)
-# Voil‡, we are going to work on these data frames:
+# Voil√†, we are going to work on these data frames:
 # "nhlstandings": League standings for regular seasons 0506-1415
 # "nhlstandingspo": Playoff "standings" for seasons 0506-1415
 # "nhlTm": df containing names and suffixes of NHL Teams, later removed
