@@ -9,7 +9,6 @@ library("rjson", lib.loc="~/R/win-library/3.1")
 #Set working Dir
 setwd("C:/Users/morris/Desktop/RR")
 
-
 # GAME TABLES FOR EVERY SEASON
 game.table0203=full.game.database()[1:1335,]
 game.table0304=full.game.database()[1336:2670,]
@@ -22,11 +21,8 @@ game.table1011=full.game.database()[9346:10680,]
 game.table1112=full.game.database()[10681:12015,]
 game.table1213=full.game.database()[12016:12840,]
 game.table1314=full.game.database()[12841:14175,]
-
 game.table0914=full.game.database()[8011:14175,]
-
 game.table1014=full.game.database()[9346:14175,]
-
 
 # COMPILE.ALL, EACH SEASON IND.
 compile.all.games(output.file="Season0203.RData",
@@ -51,10 +47,8 @@ compile.all.games(output.file="Season1213.RData",
                   new.game.table=game.table1213)
 compile.all.games(output.file="Season1314.RData",
                   new.game.table=game.table1314)
-
 compile.all.games(output.file="Season0914.RData",
                   new.game.table=game.table0914)
-
 compile.all.games(output.file="Season1014.RData",
                   new.game.table=game.table1014)
 
