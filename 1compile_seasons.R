@@ -3,7 +3,7 @@
 # Morris Trachsler, 2014
 
 # Scrapes NHL data from the NHL website using the nhlscrapr package.
-# Downloading all data at once didn't work and scraping in chunks 
+# Downloading all data at once didn't work, scraping in chunks 
 # does the trick
 
 #Load Packages
